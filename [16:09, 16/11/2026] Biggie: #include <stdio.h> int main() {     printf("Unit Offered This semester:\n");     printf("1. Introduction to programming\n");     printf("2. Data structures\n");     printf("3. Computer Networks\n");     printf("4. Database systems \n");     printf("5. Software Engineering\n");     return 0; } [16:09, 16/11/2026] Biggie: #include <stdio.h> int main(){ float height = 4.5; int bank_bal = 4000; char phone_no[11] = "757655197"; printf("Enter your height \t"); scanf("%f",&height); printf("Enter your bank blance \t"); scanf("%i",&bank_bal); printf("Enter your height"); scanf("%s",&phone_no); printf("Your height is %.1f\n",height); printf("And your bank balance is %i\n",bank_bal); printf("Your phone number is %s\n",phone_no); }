@@ -1,0 +1,26 @@
+[16:09, 16/11/2026] Biggie: #include <stdio.h>
+int main()
+{
+    printf("Unit Offered This semester:\n");
+    printf("1. Introduction to programming\n");
+    printf("2. Data structures\n");
+    printf("3. Computer Networks\n");
+    printf("4. Database systems \n");
+    printf("5. Software Engineering\n");
+    return 0;
+}
+[16:09, 16/11/2026] Biggie: #include <stdio.h>
+int main(){
+float height = 4.5;
+int bank_bal = 4000;
+char phone_no[11] = "115851008";
+printf("Enter your height \t");
+scanf("%f",&height);
+printf("Enter your bank blance \t");
+scanf("%i",&bank_bal);
+printf("Enter your height");
+scanf("%s",&phone_no);
+printf("Your height is %.1f\n",height);
+printf("And your bank balance is %i\n",bank_bal);
+printf("Your phone number is %s\n",phone_no);
+}
